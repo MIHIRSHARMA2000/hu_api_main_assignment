@@ -162,12 +162,12 @@ public class validateUser extends ExcelRead{
         Response response10 = request10.get("/task?limit=10");
         response10.prettyPrint();
     }
-    @Test (priority = 8)
+    /*@Test (priority = 8)
     public void negativeAuthenticateTest() throws IOException {
 
         registrationAndLogin();
 
-    }
+    }*/
     @Test (priority = 9)
     public void loginNotRegisterdUser()
     {

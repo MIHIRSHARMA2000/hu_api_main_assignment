@@ -11,6 +11,7 @@ public class ExcelRead {
     public String username;
     public String email;
     public String password;
+    public double age;
     public String tokenGenerated;
 
     public void readExcel() throws IOException {
@@ -29,5 +30,6 @@ public class ExcelRead {
         System.out.println(email);
         password = cell3.getStringCellValue();
         System.out.println(password);
+        age = cell4.getNumericCellValue();
     }
 }
